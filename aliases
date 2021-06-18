@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+if type hub &>/dev/null; then
+  alias git=hub
+fi
+
+if type bat &>/dev/null; then
+  alias cat=bat
+fi
+
+if type exa &>/dev/null; then
+  alias ls=exa
+fi

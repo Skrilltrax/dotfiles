@@ -1,2 +1,3 @@
 #! /bin/bash
-ln -srv .aliases ~/.aliases
+
+ln -srv aliases ~/.aliases
