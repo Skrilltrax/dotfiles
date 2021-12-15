@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+brew install --cask visual-studio-code \
+		    jetbrains-toolbox \
+		    iterm2 \
+		    docker \
+		    android-file-transfer

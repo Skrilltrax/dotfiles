@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Install commandline tools for xcode
+sudo xcode-select --install
+# Run the script from master branch
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+
+# Add it to path
+echo 'PATH="/usr/local/bin:$PATH"' >> ~/.bash_profile
+echo 'PATH="/usr/local/bin:$PATH"' >> ~/.zshrc
